@@ -81,4 +81,5 @@ Edite o `index.html`, faça commit e push na `main`. O GitHub publica em cerca d
 ## Pendências no conteúdo
 
 - **Seção de projetos:** está comentada no `index.html` até os cases serem definidos.
-- **CNPJ, cidade e LinkedIn:** comentados no rodapé. Descomente e preencha quando quiser exibir.
+- **LinkedIn:** comentado no rodapé. Descomente e preencha quando quiser exibir.
+- **Dados da empresa:** o rodapé e a página `/politica-de-privacidade/` mostram razão social, CNPJ e endereço iguais ao Cartão CNPJ. A verificação da empresa na Meta compara o site com o documento: se algum desses dados mudar na Receita, atualize aqui também.

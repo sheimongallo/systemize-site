@@ -179,13 +179,21 @@ html{scroll-behavior:smooth}*{box-sizing:border-box}
 
   <!-- Rodapé -->
   <footer style="border-top: 1px solid #2E2E2E">
-    <div style="max-width: 1200px; margin: 0 auto; padding: 40px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px; font-size: 13px; color: #A1A1AA">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 40px 24px; display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 24px; font-size: 13px; color: #A1A1AA">
       <img src="assets/logo.svg" alt="Systemize" style="height: 28px; width: auto; display: block">
-      <div style="display: flex; flex-wrap: wrap; gap: 8px 24px">
-        <span>&copy; 2026 Systemize Consultoria Ltda</span>
-        <span>Vitória/ES</span>
-        <a href="https://systemize.tec.br" style="text-decoration: none">systemize.tec.br</a>
-        <!-- <a href="[LINKEDIN]" style="text-decoration: none">LinkedIn</a> -->
+      <div style="display: flex; flex-direction: column; gap: 6px">
+        <!-- Dados iguais aos do Cartão CNPJ: a verificação da Meta compara o site com o documento. -->
+        <div style="display: flex; flex-wrap: wrap; gap: 4px 24px">
+          <span>&copy; 2026 SYSTEMIZE CONSULTORIA LTDA</span>
+          <span>CNPJ 50.488.746/0001-64</span>
+        </div>
+        <address style="font-style: normal">Rua Gil Veloso, 629, Sala 102, Pavimento 02, Campo Grande, Cariacica/ES, CEP 29.146-155</address>
+        <div style="display: flex; flex-wrap: wrap; gap: 4px 24px">
+          <a href="mailto:contato@systemize.tec.br" style="text-decoration: none">contato@systemize.tec.br</a>
+          <a href="https://wa.me/5527996090383" style="text-decoration: none">(27) 99609-0383</a>
+          <a href="/politica-de-privacidade/" style="text-decoration: none">Política de privacidade</a>
+          <!-- <a href="[LINKEDIN]" style="text-decoration: none">LinkedIn</a> -->
+        </div>
       </div>
     </div>
   </footer>
